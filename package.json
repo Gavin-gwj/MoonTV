@@ -6,7 +6,7 @@
     "dev": "pnpm gen:runtime && pnpm gen:manifest && next dev -H 0.0.0.0",
     "build": "pnpm gen:runtime && pnpm gen:manifest && next build",
     "start": "next start",
-    "pages:build": "next-on-pages build"，
+    "pages:build": "next-on-pages build",
     "lint": "next lint",
     "lint:fix": "eslint src --fix && pnpm format",
     "lint:strict": "eslint --max-warnings=0 src",
